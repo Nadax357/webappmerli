@@ -1,0 +1,27 @@
+{
+  "name": "webappmerli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "build": "cd client && npm install && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nadax357/webappmerli.git"
+  },
+  "engines": {
+    "node": "16.15.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nadax357/webappmerli/issues"
+  },
+  "homepage": "https://github.com/Nadax357/webappmerli#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
